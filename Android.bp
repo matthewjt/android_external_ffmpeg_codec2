@@ -7,6 +7,7 @@ cc_binary {
     name: "android.hardware.media.c2-service-ffmpeg",
     relative_install_path: "hw",
     vendor: true,
+    compile_multilib: "64",
     srcs: [
         "C2FFMPEGAudioDecodeComponent.cpp",
         "C2FFMPEGAudioDecodeInterface.cpp",
